@@ -58,7 +58,7 @@
 
     <script>
         // Create a Stripe client.
-        var stripe = Stripe('pk_test_51GwiB4DahCR9TFgpP3rfxzFoJuFcKzwD8Mg1zVItePZoRecmNWDCtuEX7B6EL1J6ISB7qByJCkboXCyIdhiT99nx00y8AJJSzw');
+        var stripe = Stripe('Your stripe publishable api key');
 
         // Create an instance of Elements.
         var elements = stripe.elements();
