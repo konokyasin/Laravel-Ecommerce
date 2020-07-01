@@ -543,7 +543,7 @@ class ProductsController extends Controller
     public function stripePayment(Request $request)
     {
         $data = $request->all();
-        \Stripe\Stripe::setApiKey('sk_test_51GwiB4DahCR9TFgp07Pndx2nAwE3PccPOhBzTZmUx4qQi9CxNhVjkXsUf9tJdNnZ5TEdYH7hqyaeYjA0ESzfGrcD00WA2tgXHz');
+        \Stripe\Stripe::setApiKey('Your Secret stripe API key');
 
         $token = $_POST['stripeToken'];
         $charge = \Stripe\charge::Create([
